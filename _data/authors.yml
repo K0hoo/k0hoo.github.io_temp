@@ -1,0 +1,14 @@
+0hoo:
+  name: "Younghoo Kwon, 권영후"
+  bio: "I don't what I will do."
+  avatar: "/assets/images/bio-photo-1.jpg"
+  linK:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:kwon0hooo@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://k0hoo.githun.io"
+    - label: "Github"
+      icon: "fas fa-fw fa-github-square"
+      url: "https://github.com/K0hoo"

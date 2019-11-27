@@ -1,5 +1,6 @@
 ---
-layout: post
+layout: posts
+permalink: /start
 title:  "Welcome to Jekyll!"
 date:   2019-11-26 17:31:48 +0900
 categories: jekyll update

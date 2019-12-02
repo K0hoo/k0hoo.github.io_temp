@@ -15,12 +15,12 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko"
-title                    : "개발 일기"
+locale                   : "en"
+title                    : "Check list"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "0hoo"
-description              : "군입대를 앞 둔 시한부 공부 노트"
+description              : "Studying note before serving by korean."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -30,9 +30,9 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : dev-hundred-blog # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "0hoo"
   avatar           : "/assets/images/bio-photo-1.jpg"
-  bio              : "Pool student"
+  bio              : "Poor student"
   location         : "S Korea"
   email            : "k0hooo@gmail.com"
   links:
@@ -284,11 +284,15 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: category
     values:
-      layout: single
+      layout: "categoyry"
       author_profile: true
       read_time: false
       comments: true
       share: true
       related: true
+
+collections:
+  category:
+    output: ture

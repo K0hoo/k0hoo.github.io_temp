@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "Categories"
-    url: /Categories
   - title: "Start"
     url: /start
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "About"
+    url: /about
+  - title: "Categories"
+    url: /categories
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"

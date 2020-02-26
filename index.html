@@ -1,4 +1,93 @@
----
-layout: home
-author_profile: true
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/f38dd034ab.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Chats | Kakao clone</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span class="status-bar__clock">13:54</span>
+        </div>
+        <div class="status-bar__column">
+            <i class="far fa-clock"></i>
+            <i class="fas fa-volume-mute"></i>
+            <i class="fas fa-wifi"></i>
+            <span class="status-bar__battery-level">75%</span>
+            <i class="fas fa-battery-three-quarters"></i>
+        </div>
+    </div>
+    <header class="header">
+        <div class="header__header-column">
+            <h1 class="header__title">Chats</h1>
+        </div>
+        <div class="header__header-column">
+            <span class="header__icon">
+                <i class="fas fa-search"></i>
+            </span>
+            <span class="header__icon">
+                <i class="fas fa-comment-medical"></i>
+            </span>
+            <span class="header__icon">
+                <i class="fas fa-cog"></i>
+            </span>
+        </div>
+    </header>
+    <main class="chats">
+        <ul class="chats__list">
+            <a href="chat.html">
+                <li class="chats__chat friends__friend friend">
+                    <div class="friend__column">
+                        <img src="images/avatar.png" class="m-avatar friend__avatar">
+                        <div class="friend__content">
+                            <span class="friend__name">
+                                John
+                            </span>
+                            <span class="friend__bottom-text">
+                                Going home!
+                            </span>
+                        </div>
+                    </div>
+                    <div class="friend__column">
+                        <span class="chat__timestamp">
+                            March 8
+                        </span>
+                    </div>
+                </li>
+            </a>
+        </ul>
+    </main>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__list-item">
+                <a href="friends.html" class="nav__list-link">
+                    <i class="far fa-user"></i>
+                </a>
+            </li>
+            <li class="nav__list-item">
+                <a href="index.html" class="nav__list-link">
+                    <div class="nav__badge">8</div>
+                    <i class="fas fa-comment"></i>
+                </a>
+            </li>
+            <li class="nav__list-item">
+                <a href="find.html" class="nav__list-link">
+                    <i class="fas fa-search"></i>
+                </a>
+            </li>
+            <li class="nav__list-item">
+                <a href="more.html" class="nav__list-link">
+                    <i class="fas fa-ellipsis-h"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="bigScreen">
+        <span class="bigScreen__text">Please make your screen small</span>
+    </div>
+</body>
+</html>

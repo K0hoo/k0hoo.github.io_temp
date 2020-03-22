@@ -5,7 +5,7 @@ title: "gistalk 강의/수업 선택 forms.py (1)"
 date: 2019-12-04
 categories: django gistalk
 author_profile: true
-comment: true
+comments: true
 ---
 
 gistalk의 [강의평가하기][gistalk-tas-evaluate]에서 강의를 선택하다 보면 **"강의/수업 년도"**와 **"강의/수업 학기"**가 위에서 선택된 과목에 따라서 특정되지 않고 2010년부터 2019년까지 모든 학기에 대해서 선택을 할 수 있도록 되어있다는 것을 알 수 있다.

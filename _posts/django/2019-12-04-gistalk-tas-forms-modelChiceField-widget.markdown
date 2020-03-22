@@ -3,7 +3,7 @@ layout: single
 permalink: /django/gistalk/1
 title: "gistalk 강의/수업 선택 forms.py (1)"
 date: 2019-12-04
-categories: django gistalk
+categories: gistalk
 author_profile: true
 comments: true
 ---

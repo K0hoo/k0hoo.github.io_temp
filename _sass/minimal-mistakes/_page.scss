@@ -111,12 +111,19 @@ body {
   }
 
   p,
-  dl {
+  dl,
+  li {
     font-size: 0.7em;
   }
 
   li {
-    font-size: 0.9em;
+    p {
+      font-size: 0.9em;
+    }
+    ol,
+    ul {
+      font-size: 1.3em;
+    }
   }
 
   /* paragraph indents */

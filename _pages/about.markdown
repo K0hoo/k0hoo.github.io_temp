@@ -1,10 +1,30 @@
 ---
 layout: single
-title: 0hoo 과거와 근황정리
+title: YoungHoo Kwnon (0hoo)
 permalink: /about/
 author_profile: true
 ---
 
+<center><h1>Younghoo Kwon</h1>
+(+82)10-3672-7066&nasp;&nasp;&nasp;younghookwon@gm.gist.ac.kr</center>
+
+## Education
+
+
+## Research Experience
+
+
+## Teaching Experience
+
+
+## Skills & Language
+
+
+## Scholarship
+
+
+
+<!--
 ## ME
 * 2017 3 GIST 입학
 * 2017 6 반수
@@ -28,3 +48,4 @@ author_profile: true
 [pocu C]: https://pocu.academy/ko/Courses/COMP2200
 [pocu CPP]: https://pocu.academy/ko/Courses/COMP3200
 [gistalk]: http://gistalk.net/
+-->

@@ -107,9 +107,9 @@ analytics:
 # Site Author
 author:
   name: "0hoo"
-  avatar: "/assets/images/bio-photo-1.jpg"
-  bio: "Poor student"
-  location: "S Korea"
+  avatar: "/assets/images/bio-photo-2.jpg"
+  bio: "Computer Science Student"
+  location: "Gwangju"
   email: "k0hooo@gmail.com"
   links:
     - label: "GitHub"
@@ -117,7 +117,7 @@ author:
       url: "https://github.com/K0hoo"
     - label: "GIST Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:younghookwon@gist.ac.kr
+      url: mailto:younghookwon@gm.gist.ac.kr
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
